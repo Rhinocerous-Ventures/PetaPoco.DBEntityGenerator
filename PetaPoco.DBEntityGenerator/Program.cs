@@ -7,9 +7,8 @@
     using Oracle.ManagedDataAccess.Client;
     using PetaPoco.DBEntityGenerator.Outputs;
     using System;
-    using System.Collections.Generic;
     using System.Data.Common;
-    using System.Data.SqlClient;
+    using Microsoft.Data.SqlClient;
     using System.IO;
 
     class Program

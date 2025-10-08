@@ -35,7 +35,6 @@
             string result = "";
             if (col.IsNullable &&
                 col.PropertyType != "byte[]" &&
-                col.PropertyType != "string" &&
                 col.PropertyType != "Microsoft.SqlServer.Types.SqlGeography" &&
                 col.PropertyType != "Microsoft.SqlServer.Types.SqlGeometry"
                 )
